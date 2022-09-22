@@ -3,6 +3,7 @@ body{
     background-color: rgb(255, 255, 255);
     background-size: cover;
 }
+
 header{
     position: sticky;
     top: 0;
@@ -73,4 +74,34 @@ h2{
 .carousel-item p {
     font-size: 25px;
     color: black;
+}
+
+/* For Mobile */
+@media screen and (min-width : 260px) and (max-width : 1024px) {
+
+    .carousel-inner {
+        height:600px;
+      }
+     .item {
+        height:600px;
+      }
+      .d-block {
+        height:600px;
+      }
+     #pro{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+     #pro2{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0%;
+        flex-wrap: wrap;
+        align-content: space-around;
+}
 }
